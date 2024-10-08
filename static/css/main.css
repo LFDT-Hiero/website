@@ -650,6 +650,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-2\.5 {
   margin-bottom: 0.625rem;
 }
@@ -748,6 +752,11 @@ video {
 
 .h-\[90px\] {
   height: 90px;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .h-full {
@@ -1218,6 +1227,7 @@ body {
   line-height: 1.5;
   margin: 0;
   color: #1E1E1E;
+  background-color: bisque;
 }
 
 header {
@@ -1259,7 +1269,7 @@ nav a {
 
 .anchor--roadmap {
   margin-top: -5rem;
-  /*-80px*/
+  /* -80px */
   padding-top: 5rem;
   /*80px*/
 }
